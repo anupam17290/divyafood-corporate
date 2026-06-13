@@ -10,6 +10,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
@@ -29,21 +30,33 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:'Inter',sans-serif;
     background:var(--bg);
     color:var(--text);
-    overflow:hidden;
+    overflow-x:hidden;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
+/* =========================
+   HERO SECTION
+========================= */
+
 .hero{
-    min-height:100vh;
+    flex:1;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:40px;
+    padding:80px 30px;
     position:relative;
+    overflow:hidden;
 }
 
 .hero::before{
@@ -52,10 +65,10 @@ body{
     inset:0;
 
     background:
-    radial-gradient(circle at 20% 20%, rgba(212,175,55,0.18), transparent 30%),
-    radial-gradient(circle at 80% 80%, rgba(15,61,46,0.15), transparent 30%);
+    radial-gradient(circle at 20% 20%, rgba(212,175,55,0.15), transparent 30%),
+    radial-gradient(circle at 80% 80%, rgba(15,61,46,0.12), transparent 30%);
 
-    animation: floatBg 10s ease-in-out infinite alternate;
+    animation:floatBg 12s ease-in-out infinite alternate;
 }
 
 @keyframes floatBg{
@@ -63,7 +76,7 @@ body{
         transform:scale(1);
     }
     to{
-        transform:scale(1.1);
+        transform:scale(1.08);
     }
 }
 
@@ -71,39 +84,54 @@ body{
     position:relative;
     z-index:2;
     max-width:900px;
+    width:100%;
 }
 
+/* =========================
+   LOGO
+========================= */
+
 .logo{
-    width:180px;
-    margin:0 auto 30px;
-    animation: fadeUp 1.2s ease;
+    width:140px;
+    margin:0 auto 25px;
+    animation:fadeUp 1s ease;
 }
 
 .logo img{
     width:100%;
+    height:auto;
     display:block;
 }
 
+/* =========================
+   LAUNCH BADGE
+========================= */
+
 .tag{
     display:inline-block;
-    padding:10px 18px;
+    padding:10px 20px;
     border:1px solid rgba(15,61,46,0.15);
     border-radius:50px;
-    background:white;
+    background:#ffffff;
     color:var(--forest);
     font-size:14px;
-    margin-bottom:25px;
-    animation: fadeUp 1.4s ease;
+    font-weight:500;
+    margin-bottom:30px;
+    animation:fadeUp 1.2s ease;
 }
+
+/* =========================
+   HEADING
+========================= */
 
 h1{
     font-family:'Manrope',sans-serif;
-    font-size:clamp(2.6rem,5vw,4.8rem);
+    font-size:clamp(2.5rem,6vw,5rem);
     font-weight:800;
     line-height:1.1;
     color:var(--navy);
-    margin-bottom:24px;
-    animation: fadeUp 1.6s ease;
+    margin-bottom:25px;
+    animation:fadeUp 1.4s ease;
 }
 
 .highlight{
@@ -111,13 +139,17 @@ h1{
 }
 
 p{
-    max-width:720px;
+    max-width:760px;
     margin:auto;
-    font-size:1.1rem;
+    font-size:1.15rem;
     line-height:1.8;
     color:#555;
-    animation: fadeUp 1.8s ease;
+    animation:fadeUp 1.6s ease;
 }
+
+/* =========================
+   STATUS BUTTON
+========================= */
 
 .status{
     margin-top:40px;
@@ -125,41 +157,47 @@ p{
     padding:14px 28px;
     border-radius:50px;
     background:linear-gradient(
-    135deg,
-    var(--forest),
-    var(--forest-dark)
+        135deg,
+        var(--forest),
+        var(--forest-dark)
     );
-
     color:white;
     font-weight:600;
-    animation:pulse 2s infinite;
+    letter-spacing:0.3px;
+    animation:pulse 2.5s infinite;
 }
 
 @keyframes pulse{
     0%{
-        box-shadow:0 0 0 0 rgba(15,61,46,.4);
+        box-shadow:0 0 0 0 rgba(15,61,46,.35);
     }
     70%{
-        box-shadow:0 0 0 20px rgba(15,61,46,0);
+        box-shadow:0 0 0 18px rgba(15,61,46,0);
     }
     100%{
         box-shadow:0 0 0 0 rgba(15,61,46,0);
     }
 }
 
+/* =========================
+   FOOTER
+========================= */
+
 footer{
-    position:absolute;
-    bottom:25px;
-    width:100%;
     text-align:center;
     color:#777;
     font-size:14px;
+    padding:30px 20px;
 }
+
+/* =========================
+   ANIMATIONS
+========================= */
 
 @keyframes fadeUp{
     from{
         opacity:0;
-        transform:translateY(30px);
+        transform:translateY(25px);
     }
     to{
         opacity:1;
@@ -167,8 +205,35 @@ footer{
     }
 }
 
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .logo{
+        width:120px;
+    }
+
+    p{
+        font-size:1rem;
+        line-height:1.7;
+    }
+
+    .status{
+        font-size:14px;
+        padding:12px 24px;
+    }
+
+}
+
 </style>
 </head>
+
 <body>
 
 <section class="hero">
@@ -176,8 +241,7 @@ footer{
     <div class="container">
 
         <div class="logo">
-            <!-- Replace with your logo path -->
-            <img src="assets/logos/DFP-logocl-removebg-preview.png" alt="Divya Food Processing">
+            <img src="assets/logos/DFP-logocl-removebg-preview.png" alt="Divya Food Processing Private Limited">
         </div>
 
         <div class="tag">
@@ -190,10 +254,7 @@ footer{
         </h1>
 
         <p>
-            Divya Food Processing Private Limited is an emerging food
-            processing and FMCG company focused on tea processing,
-            blending, packaging, private label manufacturing, and
-            future expansion into value-added consumer food categories.
+            Divya Food Processing Private Limited is an emerging food processing and FMCG company focused on tea processing, blending, packaging, private label manufacturing, and future expansion into value-added consumer food categories.
         </p>
 
         <div class="status">
@@ -205,8 +266,13 @@ footer{
 </section>
 
 <footer>
-    © 2026 Divya Food Processing Private Limited. All Rights Reserved.
+    © <span id="year"></span> Divya Food Processing Private Limited. All Rights Reserved.
 </footer>
+
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
 
 </body>
 </html>
