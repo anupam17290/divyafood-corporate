@@ -1449,3 +1449,41 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
+/* ACTIVE NAVIGATION */
+
+.nav-menu a.active {
+
+    color: var(--forest-green);
+}
+
+.nav-menu a.active::after {
+
+    width: 100%;
+}
+
+/* HIDE MOBILE MENU BUTTON DESKTOP */
+
+.mobile-toggle {
+
+    display: none;
+}
+
+/* SECTION IMAGE */
+
+.section-image {
+
+    border-radius: var(--radius-lg);
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow-lg);
+}
+
+.section-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
