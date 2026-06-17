@@ -530,3 +530,9 @@
         font-size: 1.4rem;
     }
 }
+    .corporate-cta .hero-buttons {
+
+    justify-content: center;
+
+    margin-top: 30px;
+}
