@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Divya Food Processing | Partnerships & Business Enquiries</title>
-    <meta name="description" content="Connect with Divya Food Processing Private Limited for strategic partnerships, investor communication, business opportunities, distribution and corporate enquiries.">
-    <meta name="theme-color" content="#073d2d">
-    <link rel="icon" href="assets/logos/DFP-logocl-removebg-preview.png">
-    <link rel="canonical" href="https://www.divyafood.in/contact.html">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Divya Food Processing | Partnerships &amp; Business Enquiries</title>
+<meta content="Connect with Divya Food Processing Private Limited for strategic partnerships, investor communication, business opportunities, distribution and corporate enquiries." name="description"/>
+<meta content="#073d2d" name="theme-color"/>
+<link href="assets/logos/DFP-logocl-removebg-preview.png" rel="icon"/>
+<link href="https://www.divyafood.in/contact.html" rel="canonical"/>
+<style>
         :root{
             --green:#073d2d;
             --green-2:#0c5a43;
@@ -237,179 +238,260 @@
             .footer-main{grid-template-columns:1fr}
             .footer-brand,.footer-col:last-child{grid-column:auto}
         }
-    </style>
+    
+
+/* =========================================================
+   DIVYA FOOD — STANDALONE PAGE DESIGN SYSTEM
+   Each HTML file owns its CSS. No external site stylesheet.
+   ========================================================= */
+:root{
+  --df-green:#0b4a38;--df-green-deep:#062f27;--df-gold:#caa12d;--df-gold-soft:#f5ecd4;
+  --df-navy:#0b1f3a;--df-ink:#243342;--df-muted:#66737d;--df-line:#e3e9e7;
+  --df-soft:#f5f8f7;--df-white:#fff;--df-max:1220px;
+  --df-shadow:0 24px 70px rgba(8,38,31,.10);--df-shadow-sm:0 10px 32px rgba(8,38,31,.065);
+}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{background:#fff}
+body::selection{background:rgba(202,161,45,.25)}
+.container{max-width:var(--df-max);padding-left:28px;padding-right:28px}
+
+/* ---------- premium header ---------- */
+.site-header,.inner-site-header,.home-header{
+  position:sticky!important;top:0;z-index:5000!important;
+  background:rgba(255,255,255,.90)!important;
+  border-bottom:1px solid rgba(11,31,58,.075)!important;
+  box-shadow:0 7px 30px rgba(11,31,58,.055)!important;
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  transition:background .3s ease,box-shadow .3s ease,transform .3s ease;
+}
+.site-header.scrolled{background:rgba(255,255,255,.97)!important;box-shadow:0 12px 36px rgba(11,31,58,.09)!important}
+.navbar{min-height:82px!important;height:82px!important;display:flex!important;align-items:center!important;gap:26px!important}
+.logo{display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;position:relative;z-index:5010}
+.logo img{width:64px!important;height:auto!important;max-height:58px;object-fit:contain}
+.site-header nav{margin-left:auto!important;position:relative;z-index:5010}
+.nav-menu{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:2px!important}
+.nav-menu a{position:relative!important;padding:11px 12px!important;border-radius:10px!important;color:var(--df-navy)!important;font-size:12px!important;font-weight:750!important;letter-spacing:-.02em!important;line-height:1.1!important;transition:color .2s ease,background .2s ease,transform .2s ease!important}
+.nav-menu a::after{content:""!important;position:absolute!important;left:12px!important;right:12px!important;bottom:5px!important;height:2px!important;border-radius:9px!important;background:var(--df-gold)!important;transform:scaleX(0)!important;transition:transform .22s ease!important}
+.nav-menu a:hover,.nav-menu a.active{color:var(--df-green)!important;background:rgba(11,74,56,.055)!important}
+.nav-menu a:hover::after,.nav-menu a.active::after{transform:scaleX(1)!important}
+.mobile-toggle{
+  display:none!important;position:relative!important;z-index:5020!important;flex:0 0 46px!important;width:46px!important;height:46px!important;
+  margin-left:auto!important;padding:0!important;border:1px solid rgba(11,74,56,.13)!important;border-radius:14px!important;
+  background:rgba(11,74,56,.055)!important;cursor:pointer!important;align-items:center!important;justify-content:center!important;flex-direction:column!important;gap:5px!important;
+  -webkit-tap-highlight-color:transparent!important;touch-action:manipulation!important;
+}
+.mobile-toggle span{display:block!important;width:21px!important;height:2px!important;margin:0!important;border-radius:99px!important;background:var(--df-navy)!important;transition:transform .25s ease,opacity .2s ease!important}
+.mobile-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.mobile-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.mobile-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav-backdrop{display:none}
+
+
+/* robust mobile nav for contact */
+.site-header nav.mobile-open{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+@media(max-width:900px){.mobile-toggle{display:flex!important}.site-header nav{position:absolute!important;top:calc(100% + 9px)!important;left:16px!important;right:16px!important;margin:0!important}.nav-menu{display:grid!important;grid-template-columns:1fr!important}.nav-menu a{padding:13px 14px!important}.nav-backdrop{position:fixed;inset:70px 0 0;z-index:4900;background:rgba(7,35,29,.10);display:none}.nav-backdrop.show{display:block}}
+</style>
 </head>
 <body>
-<header class="site-header">
-    <div class="container">
-        <div class="navbar">
-            <a class="logo" href="index.html" aria-label="Divya Food Processing home">
-                <img src="assets/logos/DFP-logocl-removebg-preview.png" alt="Divya Food Processing Private Limited">
-            </a>
-            <button class="mobile-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
-                <span></span><span></span><span></span>
-            </button>
-            <nav id="primary-navigation" aria-label="Primary Navigation">
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="business-verticals.html">Business Verticals</a></li>
-                    <li><a href="manufacturing-quality.html">Manufacturing</a></li>
-                    <li><a href="growth-vision.html">Growth Vision</a></li>
-                    <li><a href="investor-relations.html">Investors</a></li>
-                    <li><a class="active" aria-current="page" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-
+<header class="site-header inner-site-header">
+<div class="container">
+<div class="navbar">
+<a aria-label="Divya Food Processing home" class="logo" href="index.html"><img alt="Divya Food Processing Private Limited" src="assets/logos/DFP-logocl-removebg-preview.png"/></a>
+<button aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation" class="mobile-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="Primary Navigation" id="primary-navigation">
+<ul class="nav-menu">
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="business-verticals.html">Business Verticals</a></li><li><a href="manufacturing-quality.html">Manufacturing</a></li><li><a href="growth-vision.html">Growth Vision</a></li><li><a href="investor-relations.html">Investors</a></li><li><a href="contact.html">Contact</a></li>
+</ul></nav>
+</div></div></header>
 <main>
-    <section class="contact-hero">
-        <div class="container hero-inner">
-            <div class="hero-copy reveal">
-                <span class="eyebrow">Contact &amp; Communication</span>
-                <h1>Let's build the next <span>food opportunity</span> together.</h1>
-                <p>Whether you are exploring a manufacturing partnership, distribution opportunity, investor communication or a new business relationship, our team welcomes a focused conversation.</p>
-                <div class="hero-actions">
-                    <a class="btn btn-primary" href="#message">Send an Enquiry</a>
-                    <a class="btn btn-light" href="mailto:info@divyafood.in">Email Our Team</a>
-                </div>
-            </div>
-            <div class="hero-panel reveal">
-                <div class="hero-card">
-                    <span class="mini">Divya Food Processing</span>
-                    <h2>From conversation to collaboration.</h2>
-                    <p>Tell us what you are looking to build. We can route your enquiry to the appropriate business, partnership or investor channel.</p>
-                    <div class="gold-rule"></div>
-                    <div class="hero-stat">
-                        <div><strong>Partnerships</strong><span>Strategic opportunities</span></div>
-                        <div><strong>Business</strong><span>Commercial enquiries</span></div>
-                        <div><strong>Investors</strong><span>Corporate communication</span></div>
-                        <div><strong>General</strong><span>Company enquiries</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section channels">
-        <div class="container">
-            <div class="section-head reveal">
-                <span class="eyebrow">Choose a channel</span>
-                <h2>Reach the right team directly.</h2>
-                <p>Use the channel that best matches your enquiry. This helps us understand the context before responding.</p>
-            </div>
-            <div class="channel-grid">
-                <article class="channel reveal"><div class="channel-icon">GI</div><h3>General Inquiries</h3><a href="mailto:info@divyafood.in">info@divyafood.in</a><span class="arrow">→</span></article>
-                <article class="channel reveal"><div class="channel-icon">IR</div><h3>Investor Relations</h3><a href="mailto:investors@divyafood.in">investors@divyafood.in</a><span class="arrow">→</span></article>
-                <article class="channel reveal"><div class="channel-icon">SP</div><h3>Strategic Partnerships</h3><a href="mailto:partners@divyafood.in">partners@divyafood.in</a><span class="arrow">→</span></article>
-                <article class="channel reveal"><div class="channel-icon">SD</div><h3>Sales &amp; Distribution</h3><a href="mailto:sales@divyafood.in">sales@divyafood.in</a><span class="arrow">→</span></article>
-                <article class="channel reveal"><div class="channel-icon">HR</div><h3>Career Opportunities</h3><a href="mailto:careers@divyafood.in">careers@divyafood.in</a><span class="arrow">→</span></article>
-            </div>
-        </div>
-    </section>
-
-    <section class="section form-section" id="message">
-        <div class="container form-layout">
-            <div class="form-intro reveal">
-                <span class="eyebrow">Start a conversation</span>
-                <h2>Tell us what you have in mind.</h2>
-                <p>Share enough context for our team to understand your requirement. For partnership or commercial enquiries, including your organization and the opportunity you are exploring is especially helpful.</p>
-                <div class="response-note">
-                    <div class="mark">✓</div>
-                    <div><strong>Every enquiry is reviewed</strong><span>Your message is routed through the appropriate corporate channel for consideration.</span></div>
-                </div>
-            </div>
-
-            <div class="message-card reveal">
-                <div class="message-card-top"><h3>Send Us a Message</h3><span>Corporate enquiry form</span></div>
-                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="172c3dbb-b594-4053-9f1d-7ac1c7ad9638">
-                    <input type="hidden" name="subject" value="New Inquiry from Divya Food Processing Website">
-                    <input type="hidden" name="from_name" value="Divya Food Processing Website">
-                    <input type="hidden" name="redirect" value="https://www.divyafood.in/contact.html?sent=1">
-                    <input type="checkbox" name="botcheck" style="display:none">
-                    <div class="form-grid">
-                        <div class="field"><label for="name">Full Name *</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" required></div>
-                        <div class="field"><label for="email">Email Address *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required></div>
-                        <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+91 00000 00000"></div>
-                        <div class="field"><label for="organization">Organization / Company</label><input id="organization" name="organization" type="text" autocomplete="organization" placeholder="Company or organization"></div>
-                        <div class="field full"><label for="inquiry_type">Inquiry Type</label><select id="inquiry_type" name="inquiry_type"><option value="">Select an enquiry type</option><option>General Inquiry</option><option>Investor Relations</option><option>Strategic Partnership</option><option>Distribution Opportunity</option><option>Manufacturing / Private Label</option><option>Media Inquiry</option><option>Career Opportunity</option></select></div>
-                        <div class="field full"><label for="message-text">Message *</label><textarea id="message-text" name="message" rows="7" placeholder="Briefly tell us about your requirement, opportunity or question..." required></textarea></div>
-                    </div>
-                    <div class="form-footer">
-                        <p class="privacy-copy">By submitting this form, you are sharing your information with Divya Food Processing Private Limited for the purpose of responding to your enquiry.</p>
-                        <button class="submit-btn" type="submit">Submit Enquiry&nbsp; →</button>
-                    </div>
-                    <div id="form-status" class="form-status" role="status">Thank you. Your enquiry has been submitted.</div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <section class="collab">
-        <div class="container">
-            <div class="collab-grid">
-                <article class="collab-card reveal">
-                    <span class="kicker">Our approach</span>
-                    <h2>Conversations built for long-term value.</h2>
-                    <p>Divya Food Processing Private Limited believes meaningful business relationships are built through clarity, professionalism, transparency and responsible conduct.</p>
-                    <div class="collab-list">
-                        <div><b>01</b><span>Understand the opportunity and its commercial context.</span></div>
-                        <div><b>02</b><span>Evaluate the fit with our current business direction.</span></div>
-                        <div><b>03</b><span>Explore practical next steps with the relevant team.</span></div>
-                    </div>
-                </article>
-                <article class="collab-card dark reveal">
-                    <span class="kicker">Before you submit</span>
-                    <h2>A clear enquiry helps us respond better.</h2>
-                    <p>For partnership, distribution or manufacturing enquiries, include your organization, proposed opportunity, category and the kind of collaboration you have in mind.</p>
-                    <div class="notice">Submission of an inquiry through this website does not create a contractual relationship, partnership, investment arrangement, advisory engagement, employment commitment, or business obligation. Divya Food Processing Private Limited reserves the right to respond to inquiries at its discretion.</div>
-                </article>
-            </div>
-        </div>
-    </section>
+<section class="contact-hero">
+<div class="container hero-inner">
+<div class="hero-copy reveal">
+<span class="eyebrow">Contact &amp; Communication</span>
+<h1>Let's build the next <span>food opportunity</span> together.</h1>
+<p>Whether you are exploring a manufacturing partnership, distribution opportunity, investor communication or a new business relationship, our team welcomes a focused conversation.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#message">Send an Enquiry</a>
+<a class="btn btn-light" href="mailto:info@divyafood.in">Email Our Team</a>
+</div>
+</div>
+<div class="hero-panel reveal">
+<div class="hero-card">
+<span class="mini">Divya Food Processing</span>
+<h2>From conversation to collaboration.</h2>
+<p>Tell us what you are looking to build. We can route your enquiry to the appropriate business, partnership or investor channel.</p>
+<div class="gold-rule"></div>
+<div class="hero-stat">
+<div><strong>Partnerships</strong><span>Strategic opportunities</span></div>
+<div><strong>Business</strong><span>Commercial enquiries</span></div>
+<div><strong>Investors</strong><span>Corporate communication</span></div>
+<div><strong>General</strong><span>Company enquiries</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section channels">
+<div class="container">
+<div class="section-head reveal">
+<span class="eyebrow">Choose a channel</span>
+<h2>Reach the right team directly.</h2>
+<p>Use the channel that best matches your enquiry. This helps us understand the context before responding.</p>
+</div>
+<div class="channel-grid">
+<article class="channel reveal"><div class="channel-icon">GI</div><h3>General Inquiries</h3><a href="mailto:info@divyafood.in">info@divyafood.in</a><span class="arrow">→</span></article>
+<article class="channel reveal"><div class="channel-icon">IR</div><h3>Investor Relations</h3><a href="mailto:investors@divyafood.in">investors@divyafood.in</a><span class="arrow">→</span></article>
+<article class="channel reveal"><div class="channel-icon">SP</div><h3>Strategic Partnerships</h3><a href="mailto:partners@divyafood.in">partners@divyafood.in</a><span class="arrow">→</span></article>
+<article class="channel reveal"><div class="channel-icon">SD</div><h3>Sales &amp; Distribution</h3><a href="mailto:sales@divyafood.in">sales@divyafood.in</a><span class="arrow">→</span></article>
+<article class="channel reveal"><div class="channel-icon">HR</div><h3>Career Opportunities</h3><a href="mailto:careers@divyafood.in">careers@divyafood.in</a><span class="arrow">→</span></article>
+</div>
+</div>
+</section>
+<section class="section form-section" id="message">
+<div class="container form-layout">
+<div class="form-intro reveal">
+<span class="eyebrow">Start a conversation</span>
+<h2>Tell us what you have in mind.</h2>
+<p>Share enough context for our team to understand your requirement. For partnership or commercial enquiries, including your organization and the opportunity you are exploring is especially helpful.</p>
+<div class="response-note">
+<div class="mark">✓</div>
+<div><strong>Every enquiry is reviewed</strong><span>Your message is routed through the appropriate corporate channel for consideration.</span></div>
+</div>
+</div>
+<div class="message-card reveal">
+<div class="message-card-top"><h3>Send Us a Message</h3><span>Corporate enquiry form</span></div>
+<form action="https://api.web3forms.com/submit" id="contact-form" method="POST">
+<input name="access_key" type="hidden" value="172c3dbb-b594-4053-9f1d-7ac1c7ad9638"/>
+<input name="subject" type="hidden" value="New Inquiry from Divya Food Processing Website"/>
+<input name="from_name" type="hidden" value="Divya Food Processing Website"/>
+<input name="redirect" type="hidden" value="https://www.divyafood.in/contact.html?sent=1"/>
+<input name="botcheck" style="display:none" type="checkbox"/>
+<div class="form-grid">
+<div class="field"><label for="name">Full Name *</label><input autocomplete="name" id="name" name="name" placeholder="Your full name" required="" type="text"/></div>
+<div class="field"><label for="email">Email Address *</label><input autocomplete="email" id="email" name="email" placeholder="you@company.com" required="" type="email"/></div>
+<div class="field"><label for="phone">Phone Number</label><input autocomplete="tel" id="phone" name="phone" placeholder="+91 00000 00000" type="tel"/></div>
+<div class="field"><label for="organization">Organization / Company</label><input autocomplete="organization" id="organization" name="organization" placeholder="Company or organization" type="text"/></div>
+<div class="field full"><label for="inquiry_type">Inquiry Type</label><select id="inquiry_type" name="inquiry_type"><option value="">Select an enquiry type</option><option>General Inquiry</option><option>Investor Relations</option><option>Strategic Partnership</option><option>Distribution Opportunity</option><option>Manufacturing / Private Label</option><option>Media Inquiry</option><option>Career Opportunity</option></select></div>
+<div class="field full"><label for="message-text">Message *</label><textarea id="message-text" name="message" placeholder="Briefly tell us about your requirement, opportunity or question..." required="" rows="7"></textarea></div>
+</div>
+<div class="form-footer">
+<p class="privacy-copy">By submitting this form, you are sharing your information with Divya Food Processing Private Limited for the purpose of responding to your enquiry.</p>
+<button class="submit-btn" type="submit">Submit Enquiry  →</button>
+</div>
+<div class="form-status" id="form-status" role="status">Thank you. Your enquiry has been submitted.</div>
+</form>
+</div>
+</div>
+</section>
+<section class="collab">
+<div class="container">
+<div class="collab-grid">
+<article class="collab-card reveal">
+<span class="kicker">Our approach</span>
+<h2>Conversations built for long-term value.</h2>
+<p>Divya Food Processing Private Limited believes meaningful business relationships are built through clarity, professionalism, transparency and responsible conduct.</p>
+<div class="collab-list">
+<div><b>01</b><span>Understand the opportunity and its commercial context.</span></div>
+<div><b>02</b><span>Evaluate the fit with our current business direction.</span></div>
+<div><b>03</b><span>Explore practical next steps with the relevant team.</span></div>
+</div>
+</article>
+<article class="collab-card dark reveal">
+<span class="kicker">Before you submit</span>
+<h2>A clear enquiry helps us respond better.</h2>
+<p>For partnership, distribution or manufacturing enquiries, include your organization, proposed opportunity, category and the kind of collaboration you have in mind.</p>
+<div class="notice">Submission of an inquiry through this website does not create a contractual relationship, partnership, investment arrangement, advisory engagement, employment commitment, or business obligation. Divya Food Processing Private Limited reserves the right to respond to inquiries at its discretion.</div>
+</article>
+</div>
+</div>
+</section>
 </main>
-
 <footer>
-    <div class="container footer-main">
-        <div class="footer-brand">
-            <img src="assets/logos/DFP-logocl-removebg-preview.png" alt="Divya Food Processing">
-            <p>Divya Food Processing Private Limited is an emerging food processing and FMCG venture focused on strategic growth, brand development and long-term value creation.</p>
-        </div>
-        <div class="footer-col"><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="business-verticals.html">Business</a><a href="manufacturing-quality.html">Manufacturing</a><a href="growth-vision.html">Growth Vision</a></div></div>
-        <div class="footer-col"><h4>Connect</h4><div class="footer-links"><a href="contact.html">Contact Us</a><a href="mailto:info@divyafood.in">info@divyafood.in</a><a href="mailto:partners@divyafood.in">partners@divyafood.in</a></div></div>
-        <div class="footer-col"><h4>Legal</h4><div class="footer-links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-use.html">Terms of Use</a><a href="investor-relations.html">Investor Relations</a></div></div>
-    </div>
-    <div class="container footer-bottom">© 2026 Divya Food Processing Private Limited. All Rights Reserved.</div>
+<div class="container footer-main">
+<div class="footer-brand">
+<img alt="Divya Food Processing" src="assets/logos/DFP-logocl-removebg-preview.png"/>
+<p>Divya Food Processing Private Limited is an emerging food processing and FMCG venture focused on strategic growth, brand development and long-term value creation.</p>
+</div>
+<div class="footer-col"><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="business-verticals.html">Business</a><a href="manufacturing-quality.html">Manufacturing</a><a href="growth-vision.html">Growth Vision</a></div></div>
+<div class="footer-col"><h4>Connect</h4><div class="footer-links"><a href="contact.html">Contact Us</a><a href="mailto:info@divyafood.in">info@divyafood.in</a><a href="mailto:partners@divyafood.in">partners@divyafood.in</a></div></div>
+<div class="footer-col"><h4>Legal</h4><div class="footer-links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-use.html">Terms of Use</a><a href="investor-relations.html">Investor Relations</a></div></div>
+</div>
+<div class="container footer-bottom">© 2026 Divya Food Processing Private Limited. All Rights Reserved.</div>
 </footer>
 
-<script>
+<script id="divya-inline-app">
 (function(){
+  'use strict';
+  const ready=()=>{
+    document.body.classList.add('page-ready');
+    const header=document.querySelector('.site-header');
     const toggle=document.querySelector('.mobile-toggle');
     const nav=document.getElementById('primary-navigation');
-    if(toggle && nav){
-        toggle.addEventListener('click',function(){
-            const open=nav.classList.toggle('open');
-            toggle.setAttribute('aria-expanded',String(open));
-            toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');
-        });
-        nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-            nav.classList.remove('open');
-            toggle.setAttribute('aria-expanded','false');
-            toggle.setAttribute('aria-label','Open navigation');
-        }));
+    if(!header || !toggle || !nav) return;
+
+    // Guarantee a real clickable mobile control even if an old page stylesheet is absent.
+    toggle.type='button';
+    toggle.setAttribute('aria-controls','primary-navigation');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-label','Open navigation');
+
+    let backdrop=document.querySelector('.nav-backdrop');
+    if(!backdrop){
+      backdrop=document.createElement('div');
+      backdrop.className='nav-backdrop';
+      backdrop.setAttribute('aria-hidden','true');
+      document.body.appendChild(backdrop);
     }
-    const observer=new IntersectionObserver(entries=>{
-        entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})
-    },{threshold:.12});
-    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-    if(new URLSearchParams(location.search).get('sent')==='1'){
-        const status=document.getElementById('form-status');
-        if(status){status.classList.add('show');status.textContent='Thank you. Your enquiry has been submitted successfully.';history.replaceState({},'',location.pathname+'#message');}
-    }
+
+    const closeNav=()=>{
+      nav.classList.remove('mobile-open');
+      toggle.setAttribute('aria-expanded','false');
+      toggle.setAttribute('aria-label','Open navigation');
+      backdrop.classList.remove('show');
+      document.body.classList.remove('nav-locked');
+    };
+    const openNav=()=>{
+      nav.classList.add('mobile-open');
+      toggle.setAttribute('aria-expanded','true');
+      toggle.setAttribute('aria-label','Close navigation');
+      backdrop.classList.add('show');
+      document.body.classList.add('nav-locked');
+    };
+    toggle.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();nav.classList.contains('mobile-open')?closeNav():openNav();});
+    backdrop.addEventListener('click',closeNav);
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeNav));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNav();});
+    window.addEventListener('resize',()=>{if(window.innerWidth>900)closeNav();},{passive:true});
+
+    const updateHeader=()=>header.classList.toggle('scrolled',window.scrollY>24);
+    updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
+
+    const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+    nav.querySelectorAll('a').forEach(a=>{
+      const href=(a.getAttribute('href')||'').split('#')[0].toLowerCase();
+      if(href===current || (current===''&&href==='index.html')){
+        a.classList.add('active');a.setAttribute('aria-current','page');
+      }
+    });
+
+    const revealItems=document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale');
+    if('IntersectionObserver' in window){
+      const io=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){entry.target.classList.add('active');io.unobserve(entry.target);}
+      }),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+      revealItems.forEach((el,i)=>{el.style.setProperty('--delay',(Math.min(i%5,4)*70)+'ms');io.observe(el);});
+    }else revealItems.forEach(el=>el.classList.add('active'));
+
+    // Subtle section index markers for long inner pages.
+    document.querySelectorAll('.inner-content-section').forEach((section,i)=>section.dataset.section=(i+1).toString().padStart(2,'0'));
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
 })();
-</script>
-</body>
+
+(function(){
+ const form=document.getElementById('contact-form'), status=document.getElementById('form-status');
+ if(new URLSearchParams(location.search).get('sent')==='1' && status){status.classList.add('show');status.textContent='Thank you. Your enquiry has been submitted successfully.';history.replaceState({},'',location.pathname+'#message');}
+ if(form){form.addEventListener('submit',()=>{if(status){status.classList.add('show');status.textContent='Submitting your enquiry…';}});}
+})();
+</script></body>
 </html>

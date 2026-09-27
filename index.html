@@ -1,0 +1,3508 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Divya Food Processing Private Limited | Food Processing &amp; FMCG</title>
+<meta content="Divya Food Processing Private Limited is an emerging food processing and FMCG company focused on tea processing, blending, packaging, private label manufacturing and future consumer food categories." name="description"/>
+<meta content="Divya Food Processing, food processing company India, FMCG company, tea processing, tea blending, private label manufacturing, food packaging" name="keywords"/>
+<meta content="Divya Food Processing Private Limited" name="author"/>
+<meta content="#0F3D2E" name="theme-color"/>
+
+
+
+
+
+
+<link href="assets/logos/DFP-logocl-removebg-preview.png" rel="icon"/>
+<link href="https://www.divyafood.in/" rel="canonical"/>
+<meta content="Divya Food Processing Private Limited" property="og:title"/>
+<meta content="Building trusted food brands through processing, blending, packaging and scalable FMCG opportunities." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.divyafood.in/" property="og:url"/>
+<meta content="https://www.divyafood.in/assets/images/hero-fmcg-evening.png" property="og:image"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/><style id="divya-inline-design">/* =========================================================
+   DIVYA FOOD PROCESSING PRIVATE LIMITED
+   GLOBAL DESIGN SYSTEM V1
+   ========================================================= */
+
+/* =========================================================
+   GOOGLE FONTS
+   ========================================================= */
+
+500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+/* =========================================================
+   ROOT VARIABLES
+   ========================================================= */
+
+:root {
+
+    /* Brand Colors */
+
+    --forest-green: #0F3D2E;
+    --forest-green-dark: #0B4D3A;
+
+    --premium-gold: #D4AF37;
+    --premium-gold-dark: #C6A24B;
+
+    --corporate-navy: #0B1F3A;
+
+    --white: #FFFFFF;
+
+    --background-light: #F8F9FA;
+    --background-soft: #F3F5F7;
+
+    --text-primary: #1E1E1E;
+    --text-secondary: #6B7280;
+
+    --border-light: #E5E7EB;
+
+    /* Layout */
+
+    --container-width: 1280px;
+
+    --section-padding: 120px;
+
+    --radius-sm: 12px;
+    --radius-md: 18px;
+    --radius-lg: 28px;
+
+    /* Shadows */
+
+    --shadow-sm:
+        0 4px 12px rgba(0,0,0,.05);
+
+    --shadow-md:
+        0 12px 30px rgba(0,0,0,.08);
+
+    --shadow-lg:
+        0 25px 60px rgba(0,0,0,.12);
+
+    /* Animation */
+
+    --transition-fast: .25s ease;
+
+    --transition-normal: .35s ease;
+
+    --transition-slow: .6s ease;
+}
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+    font-size: 16px;
+}
+
+body {
+
+    font-family: 'Inter', sans-serif;
+
+    color: var(--text-primary);
+
+    background: var(--background-light);
+
+    overflow-x: hidden;
+
+    line-height: 1.7;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+/* =========================================================
+   GLOBAL ELEMENTS
+   ========================================================= */
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+}
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: var(--transition-fast);
+}
+
+ul,
+ol {
+
+    list-style: none;
+}
+
+button {
+
+    border: none;
+
+    cursor: pointer;
+
+    font-family: inherit;
+}
+
+input,
+textarea,
+select {
+
+    font-family: inherit;
+}
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Manrope', sans-serif;
+
+    color: var(--corporate-navy);
+
+    line-height: 1.15;
+
+    font-weight: 700;
+}
+
+h1 {
+
+    font-size: clamp(3rem, 5vw, 5.5rem);
+
+    letter-spacing: -2px;
+}
+
+h2 {
+
+    font-size: clamp(2rem, 4vw, 3.5rem);
+
+    margin-bottom: 24px;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+
+    margin-bottom: 16px;
+}
+
+h4 {
+
+    font-size: 1.2rem;
+}
+
+p {
+
+    font-size: 1.05rem;
+
+    color: var(--text-secondary);
+
+    margin-bottom: 1.25rem;
+}
+
+strong {
+
+    color: var(--text-primary);
+}
+
+/* =========================================================
+   CONTAINER SYSTEM
+   ========================================================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: var(--container-width);
+
+    margin: 0 auto;
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+}
+
+.container-sm {
+
+    max-width: 960px;
+
+    margin: 0 auto;
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+}
+
+/* =========================================================
+   SECTION SYSTEM
+   ========================================================= */
+
+section {
+
+    padding-top: var(--section-padding);
+
+    padding-bottom: var(--section-padding);
+
+    position: relative;
+}
+
+.section-light {
+
+    background: var(--white);
+}
+
+.section-soft {
+
+    background: var(--background-soft);
+}
+
+.section-dark {
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+
+    color: white;
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3 {
+
+    color: white;
+}
+
+.section-dark p {
+
+    color: rgba(255,255,255,.85);
+}
+
+/* =========================================================
+   GRID SYSTEM
+   ========================================================= */
+
+.grid-2 {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+.grid-3 {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 40px;
+}
+
+.grid-4 {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+/* =========================================================
+   PAGE HERO
+   ========================================================= */
+
+.page-hero {
+
+    padding-top: 180px;
+
+    padding-bottom: 120px;
+
+    text-align: center;
+}
+
+.page-hero .eyebrow {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    background: rgba(212,175,55,.15);
+
+    color: var(--premium-gold-dark);
+
+    font-weight: 600;
+
+    font-size: .9rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+.page-hero p {
+
+    max-width: 800px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.site-header {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+    transition: var(--transition-normal);
+}
+
+.site-header.scrolled {
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow: 0 10px 40px rgba(0,0,0,.08);
+
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.navbar {
+
+    height: 90px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo img {
+
+    height: 58px;
+
+    width: auto;
+}
+
+.nav-menu {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 36px;
+}
+
+.nav-menu a {
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    color: var(--corporate-navy);
+
+    position: relative;
+}
+
+.nav-menu a::after {
+
+    content: '';
+
+    position: absolute;
+
+    left: 0;
+    bottom: -8px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--premium-gold);
+
+    transition: var(--transition-fast);
+}
+
+.nav-menu a:hover::after {
+
+    width: 100%;
+}
+
+/* =========================================================
+   MOBILE NAV BUTTON
+   ========================================================= */
+
+.mobile-toggle {
+
+    display: none;
+
+    background: transparent;
+
+    font-size: 1.5rem;
+
+    color: var(--corporate-navy);
+}
+
+/* =========================================================
+   BUTTON SYSTEM
+   ========================================================= */
+
+.btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    padding: 16px 30px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition: var(--transition-normal);
+
+    cursor: pointer;
+}
+
+.btn-primary {
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--forest-green-dark)
+        );
+
+    color: white;
+
+    box-shadow:
+        0 15px 35px rgba(15,61,46,.25);
+}
+
+.btn-primary:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 25px 50px rgba(15,61,46,.35);
+}
+
+.btn-gold {
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--premium-gold),
+        var(--premium-gold-dark)
+        );
+
+    color: white;
+
+    box-shadow:
+        0 15px 35px rgba(212,175,55,.25);
+}
+
+.btn-gold:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 25px 50px rgba(212,175,55,.35);
+}
+
+.btn-outline {
+
+    border: 1px solid rgba(255,255,255,.25);
+
+    background: transparent;
+
+    color: white;
+}
+
+.btn-outline:hover {
+
+    background: rgba(255,255,255,.08);
+}
+
+/* =========================================================
+   BADGES
+   ========================================================= */
+
+.badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    background: rgba(212,175,55,.12);
+
+    color: var(--premium-gold-dark);
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+/* =========================================================
+   GLASS CARD
+   ========================================================= */
+
+.glass-card {
+
+    background:
+        rgba(255,255,255,.75);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    border:
+        1px solid rgba(255,255,255,.3);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+
+    padding: 40px;
+}
+
+/* =========================================================
+   CARD SYSTEM
+   ========================================================= */
+
+.card {
+
+    background: white;
+
+    border-radius: var(--radius-md);
+
+    padding: 40px;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: var(--transition-normal);
+
+    border: 1px solid rgba(0,0,0,.04);
+
+    height: 100%;
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.card h3 {
+
+    margin-bottom: 18px;
+}
+
+.card p {
+
+    margin-bottom: 0;
+}
+
+/* =========================================================
+   FEATURE CARD
+   ========================================================= */
+
+.feature-card {
+
+    text-align: center;
+
+    padding: 50px 40px;
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    transition: var(--transition-normal);
+
+    box-shadow: var(--shadow-sm);
+}
+
+.feature-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-icon {
+
+    width: 80px;
+    height: 80px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        linear-gradient(
+        135deg,
+        rgba(15,61,46,.08),
+        rgba(212,175,55,.15)
+        );
+}
+
+/* =========================================================
+   IMAGE CARD
+   ========================================================= */
+
+.image-card {
+
+    overflow: hidden;
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+}
+
+.image-card img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 1s ease;
+}
+
+.image-card:hover img {
+
+    transform: scale(1.08);
+}
+
+/* =========================================================
+   SECTION TITLE
+   ========================================================= */
+
+.section-title {
+
+    text-align: center;
+
+    max-width: 850px;
+
+    margin: 0 auto 80px;
+}
+
+.section-title h2 {
+
+    margin-bottom: 20px;
+}
+
+.section-title p {
+
+    margin-bottom: 0;
+}
+
+/* =========================================================
+   STAT CARD
+   ========================================================= */
+
+.stat-card {
+
+    text-align: center;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-sm);
+}
+
+.stat-number {
+
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 3rem;
+
+    font-weight: 800;
+
+    color: var(--forest-green);
+
+    margin-bottom: 10px;
+}
+
+.stat-label {
+
+    font-weight: 600;
+
+    color: var(--text-secondary);
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.site-footer {
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+
+    color: white;
+
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+}
+
+.footer-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        2fr
+        1fr
+        1fr
+        1fr;
+
+    gap: 50px;
+}
+
+.footer-logo {
+
+    max-width: 180px;
+
+    margin-bottom: 25px;
+}
+
+.site-footer h4 {
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.site-footer p {
+
+    color: rgba(255,255,255,.8);
+}
+
+.site-footer a {
+
+    color: rgba(255,255,255,.8);
+}
+
+.site-footer a:hover {
+
+    color: white;
+}
+
+.footer-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.footer-bottom {
+
+    margin-top: 70px;
+
+    padding-top: 30px;
+
+    border-top:
+        1px solid rgba(255,255,255,.15);
+
+    text-align: center;
+}
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.divider {
+
+    width: 120px;
+
+    height: 4px;
+
+    background:
+        linear-gradient(
+        90deg,
+        var(--forest-green),
+        var(--premium-gold)
+        );
+
+    border-radius: 999px;
+
+    margin: 24px auto;
+}
+
+/* =========================================================
+   HERO SYSTEM
+   ========================================================= */
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+
+    color: white;
+}
+
+.hero::before {
+
+    content: '';
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(212,175,55,.12),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(255,255,255,.05),
+            transparent 35%
+        );
+}
+
+.hero-grid {
+
+    display: grid;
+
+    grid-template-columns: 1.1fr .9fr;
+
+    gap: 80px;
+
+    align-items: center;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.hero-content h1 {
+
+    color: white;
+
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+
+    color: rgba(255,255,255,.82);
+
+    font-size: 1.15rem;
+
+    max-width: 650px;
+}
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 40px;
+
+    flex-wrap: wrap;
+}
+
+.hero-visual {
+
+    position: relative;
+}
+
+.hero-visual img {
+
+    width: 100%;
+
+    max-width: 560px;
+
+    margin-left: auto;
+}
+
+/* =========================================================
+   BUSINESS VERTICALS
+   ========================================================= */
+
+.vertical-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+
+    overflow: hidden;
+
+    border-radius: var(--radius-lg);
+
+    background: white;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: var(--transition-normal);
+}
+
+.vertical-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.vertical-card img {
+
+    height: 260px;
+
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.vertical-card-content {
+
+    padding: 35px;
+}
+
+/* =========================================================
+   SPLIT CONTENT SECTION
+   ========================================================= */
+
+.split-section {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+.split-section img {
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+}
+
+/* =========================================================
+   TIMELINE SYSTEM
+   ========================================================= */
+
+.timeline {
+
+    position: relative;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.timeline::before {
+
+    content: '';
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 0;
+
+    width: 4px;
+
+    height: 100%;
+
+    background:
+        linear-gradient(
+        to bottom,
+        var(--forest-green),
+        var(--premium-gold)
+        );
+
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+
+    position: relative;
+
+    width: 50%;
+
+    padding: 30px 50px;
+}
+
+.timeline-item:nth-child(odd) {
+
+    left: 0;
+
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+
+    left: 50%;
+}
+
+.timeline-dot {
+
+    position: absolute;
+
+    top: 40px;
+
+    width: 20px;
+
+    height: 20px;
+
+    border-radius: 50%;
+
+    background: var(--premium-gold);
+
+    border: 4px solid white;
+
+    box-shadow: var(--shadow-sm);
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+
+    right: -10px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+
+    left: -10px;
+}
+
+.timeline-card {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-md);
+}
+
+/* =========================================================
+   INVESTOR SECTION
+   ========================================================= */
+
+.investor-panel {
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+
+    color: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 80px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.investor-panel h2 {
+
+    color: white;
+}
+
+.investor-panel p {
+
+    color: rgba(255,255,255,.85);
+}
+
+/* =========================================================
+   CONTACT FORM
+   ========================================================= */
+
+.contact-form {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.form-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 25px;
+}
+
+.form-group {
+
+    margin-bottom: 24px;
+}
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: 600;
+
+    color: var(--corporate-navy);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+
+    width: 100%;
+
+    padding: 16px 18px;
+
+    border-radius: var(--radius-sm);
+
+    border: 1px solid var(--border-light);
+
+    background: white;
+
+    transition: var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+
+    outline: none;
+
+    border-color: var(--forest-green);
+
+    box-shadow:
+        0 0 0 4px rgba(15,61,46,.08);
+}
+
+textarea {
+
+    resize: vertical;
+
+    min-height: 180px;
+}
+
+/* =========================================================
+   LEGAL NOTICE BOX
+   ========================================================= */
+
+.legal-notice {
+
+    background:
+        rgba(11,31,58,.04);
+
+    border-left: 5px solid var(--premium-gold);
+
+    border-radius: var(--radius-md);
+
+    padding: 35px;
+}
+
+.legal-notice h3 {
+
+    margin-bottom: 15px;
+}
+
+/* =========================================================
+   DISCLAIMER PANEL
+   ========================================================= */
+
+.disclaimer-panel {
+
+    background:
+        linear-gradient(
+        135deg,
+        rgba(15,61,46,.05),
+        rgba(212,175,55,.08)
+        );
+
+    border-radius: var(--radius-lg);
+
+    padding: 50px;
+}
+
+/* =========================================================
+   IMAGE OVERLAY SECTION
+   ========================================================= */
+
+.image-overlay {
+
+    position: relative;
+
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.image-overlay img {
+
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.image-overlay::after {
+
+    content: '';
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+        135deg,
+        rgba(15,61,46,.85),
+        rgba(11,31,58,.75)
+        );
+}
+
+.image-overlay-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    color: white;
+
+    max-width: 750px;
+}
+
+.image-overlay-content h2 {
+
+    color: white;
+}
+
+.image-overlay-content p {
+
+    color: rgba(255,255,255,.85);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .grid-4 {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .hero-grid,
+    .split-section {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .footer-grid {
+
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    :root {
+
+        --section-padding: 80px;
+    }
+
+    .container,
+    .container-sm {
+
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .form-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+
+        min-height: auto;
+
+        padding-top: 160px;
+
+        padding-bottom: 100px;
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+    }
+
+    .timeline::before {
+
+        left: 20px;
+    }
+
+    .timeline-item {
+
+        width: 100%;
+
+        left: 0 !important;
+
+        text-align: left !important;
+
+        padding-left: 60px;
+
+        padding-right: 20px;
+    }
+
+    .timeline-dot {
+
+        left: 10px !important;
+    }
+
+    .footer-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+/* ACTIVE NAVIGATION */
+
+.nav-menu a.active {
+
+    color: var(--forest-green);
+}
+
+.nav-menu a.active::after {
+
+    width: 100%;
+}
+
+/* HIDE MOBILE MENU BUTTON DESKTOP */
+
+.mobile-toggle {
+
+    display: none;
+}
+
+/* SECTION IMAGE */
+
+.section-image {
+
+    border-radius: var(--radius-lg);
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow-lg);
+}
+
+.section-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+/* =========================================================
+   HOMEPAGE V2
+   ========================================================= */
+
+.home-hero {
+    min-height: 900px;
+    padding-top: 145px;
+    padding-bottom: 90px;
+    background:
+        radial-gradient(circle at 15% 18%, rgba(212,175,55,.12), transparent 28%),
+        linear-gradient(135deg, #071f18 0%, #0f3d2e 52%, #0b1f3a 100%);
+}
+
+.home-hero-backdrop {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(7,31,24,.96) 0%, rgba(15,61,46,.82) 48%, rgba(11,31,58,.60) 100%),
+        url('../assets/images/hero-fmcg-growth.png') center right / cover no-repeat;
+    opacity: .72;
+}
+
+.home-hero-grid {
+    grid-template-columns: 1.02fr .98fr;
+    gap: 70px;
+    min-height: 650px;
+}
+
+.home-hero .hero-content {
+    position: relative;
+    z-index: 3;
+}
+
+.home-eyebrow {
+    background: rgba(255,255,255,.08);
+    color: #f4d67c;
+    border: 1px solid rgba(255,255,255,.16);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+.home-hero h1 {
+    max-width: 760px;
+    font-size: clamp(3rem, 5.4vw, 5.4rem);
+    letter-spacing: -2.5px;
+}
+
+.home-highlight {
+    color: #e0b93f;
+}
+
+.home-hero .hero-content p {
+    max-width: 690px;
+    font-size: 1.1rem;
+    line-height: 1.85;
+}
+
+.home-hero .btn-outline {
+    border-color: rgba(255,255,255,.42);
+}
+
+.home-trust-line {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 30px;
+    color: rgba(255,255,255,.68);
+    font-size: .83rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+.home-trust-line i {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--premium-gold);
+}
+
+.home-hero-visual {
+    z-index: 3;
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home-hero-image-wrap {
+    width: min(100%, 620px);
+    padding: 12px;
+    border-radius: 34px;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 0 35px 80px rgba(0,0,0,.28);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transform: rotate(1.2deg);
+}
+
+.home-hero-image-wrap img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.home-hero-float-card {
+    position: absolute;
+    left: -25px;
+    bottom: 65px;
+    width: 235px;
+    padding: 24px;
+    border-radius: 20px;
+    background: rgba(255,255,255,.96);
+    box-shadow: 0 25px 60px rgba(0,0,0,.2);
+    color: var(--corporate-navy);
+}
+
+.home-card-kicker {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--forest-green);
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+}
+
+.home-hero-float-card strong {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.home-scroll {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    bottom: 28px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255,255,255,.65);
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.home-scroll b {
+    color: var(--premium-gold);
+    font-size: 1.2rem;
+    animation: float 2.2s ease-in-out infinite;
+}
+
+.home-focus-section {
+    padding-top: 105px;
+}
+
+.home-focus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: end;
+    margin-bottom: 65px;
+}
+
+.home-focus-grid h2 {
+    max-width: 670px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.home-focus-grid p {
+    margin-bottom: 18px;
+}
+
+.text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--forest-green);
+    font-weight: 700;
+}
+
+.text-link span {
+    transition: transform var(--transition-fast);
+}
+
+.text-link:hover span {
+    transform: translateX(5px);
+}
+
+.home-focus-cards {
+    gap: 22px;
+}
+
+.home-focus-cards .feature-card {
+    padding: 36px 28px;
+    text-align: left;
+}
+
+.home-feature-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 0 24px;
+    border-radius: 14px;
+    color: var(--forest-green);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(135deg, rgba(15,61,46,.08), rgba(212,175,55,.18));
+}
+
+.home-focus-cards .feature-card p {
+    margin-bottom: 0;
+}
+
+.home-overview {
+    gap: 90px;
+}
+
+.home-overview-image {
+    min-height: 560px;
+}
+
+.home-overview-image img {
+    height: 560px;
+    object-fit: cover;
+}
+
+.home-overview h2 {
+    margin-top: 18px;
+}
+
+.home-check-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px 25px;
+    margin: 28px 0 34px;
+}
+
+.home-check-list div {
+    color: var(--text-secondary);
+    font-size: .94rem;
+}
+
+.home-check-list span {
+    display: inline-flex;
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+    border-radius: 50%;
+    color: white;
+    background: var(--forest-green);
+    font-size: .7rem;
+    font-weight: 800;
+}
+
+.home-vertical-grid {
+    gap: 28px;
+}
+
+.home-vertical-grid .vertical-card {
+    border: 1px solid rgba(11,31,58,.06);
+}
+
+.home-vertical-grid .vertical-card img {
+    height: 275px;
+}
+
+.home-card-number {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--premium-gold-dark);
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.home-vertical-grid .vertical-card h3 {
+    margin-bottom: 13px;
+}
+
+.home-vertical-grid .vertical-card p {
+    margin-bottom: 20px;
+}
+
+.home-brand-section {
+    padding-top: 90px;
+}
+
+.home-brand-image {
+    overflow: hidden;
+    border-radius: 24px;
+    box-shadow: 0 25px 65px rgba(0,0,0,.2);
+}
+
+.home-brand-image img {
+    width: 100%;
+    aspect-ratio: 1.45 / 1;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+.home-brand-image:hover img {
+    transform: scale(1.04);
+}
+
+.home-roadmap {
+    gap: 18px;
+}
+
+.home-roadmap .roadmap-step {
+    padding: 34px 25px;
+}
+
+.home-roadmap .roadmap-phase {
+    font-size: .78rem;
+    letter-spacing: 1px;
+}
+
+.home-roadmap .roadmap-step h3 {
+    font-size: 1.18rem;
+}
+
+.home-roadmap .roadmap-step p {
+    font-size: .92rem;
+    margin-bottom: 0;
+}
+
+.home-final-cta {
+    padding: 90px 70px;
+}
+
+.home-final-cta .brand-tag {
+    background: rgba(212,175,55,.14);
+}
+
+.home-final-cta p {
+    max-width: 760px;
+}
+
+/* Homepage header: starts transparent, then becomes the shared glass header. */
+.home-header:not(.scrolled) .logo img {
+    filter: brightness(0) invert(1);
+}
+
+.home-header:not(.scrolled) .nav-menu a {
+    color: rgba(255,255,255,.9);
+}
+
+.home-header:not(.scrolled) .nav-menu a.active,
+.home-header:not(.scrolled) .nav-menu a:hover {
+    color: #ffffff;
+}
+
+.home-header:not(.scrolled) .nav-menu a::after {
+    background: var(--premium-gold);
+}
+
+@media (max-width: 1100px) {
+    .home-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .home-hero {
+        min-height: auto;
+        padding-top: 150px;
+        padding-bottom: 110px;
+    }
+
+    .home-hero-visual {
+        min-height: 430px;
+        justify-content: center;
+    }
+
+    .home-hero-float-card {
+        left: 4%;
+        bottom: 25px;
+    }
+
+    .home-focus-grid {
+        gap: 45px;
+    }
+}
+
+@media (max-width: 900px) {
+    .home-header .navbar {
+        height: 78px;
+    }
+
+    .home-header .logo img {
+        height: 50px;
+    }
+
+    .home-header:not(.scrolled) .logo img {
+        filter: brightness(0) invert(1);
+    }
+
+    .home-header .mobile-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        background: rgba(255,255,255,.08);
+        border: 1px solid rgba(255,255,255,.18);
+    }
+
+    .home-header.scrolled .mobile-toggle {
+        background: rgba(15,61,46,.06);
+        border-color: rgba(15,61,46,.1);
+    }
+
+    .home-header .mobile-toggle span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        border-radius: 2px;
+        background: white;
+        transition: .25s ease;
+    }
+
+    .home-header.scrolled .mobile-toggle span {
+        background: var(--corporate-navy);
+    }
+
+    .home-header nav {
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 24px;
+        right: 24px;
+        padding: 10px;
+        border-radius: 20px;
+        background: rgba(255,255,255,.97);
+        box-shadow: var(--shadow-lg);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-8px);
+        transition: .25s ease;
+    }
+
+    .home-header nav.mobile-open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .home-header .nav-menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+    }
+
+    .home-header .nav-menu a,
+    .home-header:not(.scrolled) .nav-menu a {
+        display: block;
+        padding: 13px 15px;
+        border-radius: 12px;
+        color: var(--corporate-navy);
+    }
+
+    .home-header .nav-menu a:hover,
+    .home-header .nav-menu a.active {
+        color: var(--forest-green);
+        background: rgba(15,61,46,.06);
+    }
+
+    .home-header .nav-menu a::after {
+        display: none;
+    }
+
+    .home-focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-check-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-hero {
+        padding-top: 130px;
+        padding-bottom: 95px;
+    }
+
+    .home-hero-backdrop {
+        background-position: 65% center;
+        opacity: .55;
+    }
+
+    .home-hero h1 {
+        font-size: clamp(2.7rem, 11vw, 4rem);
+        letter-spacing: -1.6px;
+    }
+
+    .home-hero .hero-content p {
+        font-size: 1rem;
+    }
+
+    .home-trust-line {
+        flex-wrap: wrap;
+        gap: 8px 11px;
+    }
+
+    .home-hero-visual {
+        min-height: 310px;
+    }
+
+    .home-hero-image-wrap {
+        transform: none;
+        padding: 7px;
+        border-radius: 23px;
+    }
+
+    .home-hero-image-wrap img {
+        border-radius: 17px;
+    }
+
+    .home-hero-float-card {
+        left: 8px;
+        bottom: -18px;
+        width: 190px;
+        padding: 18px;
+    }
+
+    .home-scroll {
+        display: none;
+    }
+
+    .home-focus-section {
+        padding-top: 85px;
+    }
+
+    .home-overview-image,
+    .home-overview-image img {
+        min-height: 340px;
+        height: 340px;
+    }
+
+    .home-brand-section {
+        padding-top: 80px;
+    }
+
+    .home-final-cta {
+        padding: 65px 28px;
+    }
+}
+
+
+/* =========================================================
+   INNER PAGES — SHARED CORPORATE LAYOUT
+   ========================================================= */
+.inner-site-header {
+    background: rgba(255,255,255,.96);
+    border-bottom: 1px solid rgba(15,61,46,.08);
+    box-shadow: 0 8px 30px rgba(11,31,58,.05);
+}
+.inner-site-header .nav-menu a { color: var(--corporate-navy); }
+.inner-site-header .nav-menu a.active { color: var(--forest-green); }
+.inner-site-header .nav-menu a.active::after { width: 100%; }
+.inner-page main { padding-top: 0; }
+.inner-page .page-hero {
+    padding-top: 170px;
+    padding-bottom: 105px;
+    background:
+      radial-gradient(circle at 12% 20%, rgba(212,175,55,.10), transparent 30%),
+      radial-gradient(circle at 88% 80%, rgba(15,61,46,.08), transparent 32%),
+      var(--white);
+}
+.inner-page .page-hero .container { max-width: 1040px; }
+.inner-page .inner-eyebrow { margin-bottom: 22px; }
+.inner-page .page-hero h1 { max-width: 950px; margin: 0 auto 25px; }
+.inner-page .page-hero p:not(.badge) { max-width: 850px; margin-left:auto; margin-right:auto; }
+.inner-content-section .container { max-width: 1120px; }
+.inner-content-section h2 { margin-bottom: 20px; }
+.inner-content-section h3 { margin-top: 28px; }
+.inner-content-section ul,
+.inner-content-section ol { margin: 18px 0 25px 1.25rem; list-style: disc; }
+.inner-content-section ol { list-style: decimal; }
+.inner-content-section li { margin-bottom: 10px; color: var(--text-secondary); font-size: 1.03rem; }
+.inner-content-section article,
+.inner-content-section .card {
+    background: var(--white);
+    border: 1px solid rgba(11,31,58,.07);
+    border-radius: var(--radius-md);
+    padding: 32px;
+    margin: 18px 0;
+    box-shadow: var(--shadow-sm);
+}
+.inner-content-section article h3 { margin-top: 0; }
+.inner-content-section img:not(.footer-logo) {
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    margin: 24px auto;
+}
+.inner-content-section form {
+    max-width: 900px;
+    margin: 30px auto 0;
+    background: var(--white);
+    border: 1px solid rgba(11,31,58,.07);
+    border-radius: var(--radius-lg);
+    padding: 38px;
+    box-shadow: var(--shadow-md);
+}
+.inner-content-section label { display:block; margin-bottom:8px; font-weight:600; color:var(--corporate-navy); }
+.inner-content-section input,
+.inner-content-section textarea,
+.inner-content-section select {
+    width:100%;
+    border:1px solid var(--border-light);
+    border-radius:12px;
+    padding:13px 15px;
+    background:#fff;
+    color:var(--text-primary);
+    margin-bottom:18px;
+    outline:none;
+    transition: var(--transition-fast);
+}
+.inner-content-section input:focus,
+.inner-content-section textarea:focus,
+.inner-content-section select:focus {
+    border-color: var(--premium-gold);
+    box-shadow: 0 0 0 3px rgba(212,175,55,.12);
+}
+.inner-content-section textarea { min-height:150px; resize:vertical; }
+.inner-content-section button[type="submit"],
+.inner-content-section input[type="submit"] {
+    width:auto;
+    border:0;
+    border-radius:999px;
+    padding:14px 28px;
+    background:linear-gradient(135deg,var(--forest-green),var(--forest-green-dark));
+    color:#fff;
+    font-weight:700;
+    cursor:pointer;
+}
+.inner-page .site-footer { margin-top:0; }
+.inner-page .site-footer p { color: rgba(255,255,255,.72); }
+
+/* Legal pages: calm, readable document presentation */
+.inner-page main > section:only-child .container,
+.inner-page main > .inner-content-section:last-child .container { max-width: 900px; }
+
+/* Generic mobile navigation for every non-home page */
+@media (max-width: 900px) {
+    .inner-site-header .navbar { height: 78px; }
+    .inner-site-header .logo img { height: 50px; }
+    .inner-site-header .mobile-toggle {
+        display:flex; flex-direction:column; gap:5px; width:44px; height:44px;
+        align-items:center; justify-content:center; border-radius:12px;
+        background:rgba(15,61,46,.06); border:1px solid rgba(15,61,46,.10);
+    }
+    .inner-site-header .mobile-toggle span { display:block; width:20px; height:2px; border-radius:2px; background:var(--corporate-navy); }
+    .inner-site-header nav {
+        position:absolute; top:calc(100% + 10px); left:24px; right:24px; padding:10px;
+        border-radius:20px; background:rgba(255,255,255,.98); box-shadow:var(--shadow-lg);
+        backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px);
+        opacity:0; visibility:hidden; transform:translateY(-8px); transition:.25s ease;
+    }
+    .inner-site-header nav.mobile-open { opacity:1; visibility:visible; transform:translateY(0); }
+    .inner-site-header .nav-menu { flex-direction:column; align-items:stretch; gap:2px; }
+    .inner-site-header .nav-menu a { display:block; padding:13px 15px; border-radius:12px; }
+    .inner-site-header .nav-menu a:hover,
+    .inner-site-header .nav-menu a.active { color:var(--forest-green); background:rgba(15,61,46,.06); }
+    .inner-site-header .nav-menu a::after { display:none; }
+    .inner-page .page-hero { padding-top:135px; padding-bottom:80px; }
+    .inner-page .page-hero h1 { font-size:clamp(2.45rem,9vw,4rem); letter-spacing:-1.5px; }
+}
+@media (max-width: 768px) {
+    .inner-page .container { padding-left:22px; padding-right:22px; }
+    .inner-content-section form { padding:26px 20px; }
+    .inner-content-section article { padding:25px; }
+    .inner-page .page-hero { padding-top:125px; }
+}
+
+/* =========================================================
+   COMPONENT LIBRARY V1
+   DIVYA FOOD PROCESSING PRIVATE LIMITED
+   ========================================================= */
+
+/* =========================================================
+   KPI SECTION
+   ========================================================= */
+
+.kpi-section {
+
+    position: relative;
+
+    margin-top: -100px;
+
+    z-index: 20;
+}
+
+.kpi-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 25px;
+}
+
+.kpi-card {
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 40px 30px;
+
+    text-align: center;
+
+    box-shadow: var(--shadow-lg);
+
+    transition: var(--transition-normal);
+}
+
+.kpi-card:hover {
+
+    transform: translateY(-10px);
+}
+
+.kpi-value {
+
+    font-size: 3rem;
+
+    font-weight: 800;
+
+    font-family: 'Manrope', sans-serif;
+
+    color: var(--forest-green);
+
+    margin-bottom: 10px;
+}
+
+.kpi-title {
+
+    color: var(--text-secondary);
+
+    font-weight: 600;
+}
+
+/* =========================================================
+   CORPORATE CTA
+   ========================================================= */
+
+.corporate-cta {
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: var(--radius-lg);
+
+    padding: 100px 80px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+}
+
+.corporate-cta::before {
+
+    content: '';
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(212,175,55,.08);
+
+    top: -250px;
+    right: -250px;
+}
+
+.corporate-cta h2 {
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.corporate-cta p {
+
+    color: rgba(255,255,255,.85);
+
+    max-width: 800px;
+
+    margin: 0 auto 35px;
+}
+
+/* =========================================================
+   EXECUTIVE QUOTE
+   ========================================================= */
+
+.executive-quote {
+
+    max-width: 950px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.executive-quote blockquote {
+
+    font-size: 2rem;
+
+    font-family: 'Manrope', sans-serif;
+
+    line-height: 1.5;
+
+    color: var(--corporate-navy);
+
+    margin-bottom: 40px;
+}
+
+.executive-quote cite {
+
+    font-style: normal;
+
+    font-weight: 600;
+
+    color: var(--forest-green);
+}
+
+/* =========================================================
+   MARKET OPPORTUNITY
+   ========================================================= */
+
+.market-panel {
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 50px;
+
+    box-shadow: var(--shadow-md);
+}
+
+.market-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 30px;
+}
+
+.market-card {
+
+    padding: 35px;
+
+    border-radius: var(--radius-md);
+
+    background: var(--background-soft);
+
+    transition: var(--transition-normal);
+}
+
+.market-card:hover {
+
+    transform: translateY(-6px);
+}
+
+.market-card h3 {
+
+    color: var(--forest-green);
+}
+
+/* =========================================================
+   STRATEGIC PILLARS
+   ========================================================= */
+
+.pillars-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 40px;
+}
+
+.pillar {
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 50px;
+
+    box-shadow: var(--shadow-sm);
+
+    text-align: center;
+
+    transition: var(--transition-normal);
+}
+
+.pillar:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.pillar-number {
+
+    font-size: 4rem;
+
+    font-weight: 800;
+
+    color: rgba(212,175,55,.2);
+
+    margin-bottom: 15px;
+}
+
+/* =========================================================
+   IMAGE FEATURE SECTION
+   ========================================================= */
+
+.image-feature {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.image-feature-image {
+
+    position: relative;
+}
+
+.image-feature-image img {
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.image-feature-content ul {
+
+    margin-top: 25px;
+}
+
+.image-feature-content li {
+
+    margin-bottom: 14px;
+
+    color: var(--text-secondary);
+}
+/* =========================================================
+   ROADMAP SYSTEM
+   ========================================================= */
+
+.roadmap {
+
+    display: grid;
+
+    grid-template-columns: repeat(5,1fr);
+
+    gap: 25px;
+}
+
+.roadmap-step {
+
+    position: relative;
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 35px;
+
+    text-align: center;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: var(--transition-normal);
+}
+
+.roadmap-step:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+.roadmap-phase {
+
+    color: var(--premium-gold-dark);
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+/* =========================================================
+   INVESTOR PANEL
+   ========================================================= */
+
+.investor-card {
+
+    background: white;
+
+    border-radius: var(--radius-lg);
+
+    padding: 40px;
+
+    box-shadow: var(--shadow-sm);
+}
+
+.investor-card h3 {
+
+    color: var(--forest-green);
+}
+
+.investor-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 30px;
+}
+
+/* =========================================================
+   OPPORTUNITY GRID
+   ========================================================= */
+
+.opportunity-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 30px;
+}
+
+.opportunity-card {
+
+    background: white;
+
+    border-radius: var(--radius-md);
+
+    padding: 35px;
+
+    text-align: center;
+
+    box-shadow: var(--shadow-sm);
+}
+
+/* =========================================================
+   SANT GOLD SHOWCASE
+   ========================================================= */
+
+.brand-showcase {
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: var(--radius-lg);
+
+    background:
+        linear-gradient(
+        135deg,
+        var(--forest-green),
+        var(--corporate-navy)
+        );
+
+    padding: 80px;
+}
+
+.brand-showcase-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+}
+
+.brand-showcase h2 {
+
+    color: white;
+}
+
+.brand-showcase p {
+
+    color: rgba(255,255,255,.85);
+}
+
+.brand-tag {
+
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    background:
+        rgba(212,175,55,.15);
+
+    color: var(--premium-gold);
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+/* =========================================================
+   LEGAL DISCLAIMER BLOCK
+   ========================================================= */
+
+.disclosure-box {
+
+    padding: 40px;
+
+    border-radius: var(--radius-lg);
+
+    background:
+        rgba(11,31,58,.04);
+
+    border-left: 6px solid var(--premium-gold);
+}
+
+.disclosure-box h3 {
+
+    margin-bottom: 15px;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width:1100px) {
+
+    .kpi-grid,
+    .market-grid,
+    .pillars-grid,
+    .investor-grid {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .roadmap {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .opportunity-grid {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .image-feature,
+    .brand-showcase-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:768px) {
+
+    .kpi-grid,
+    .market-grid,
+    .pillars-grid,
+    .investor-grid,
+    .roadmap,
+    .opportunity-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .corporate-cta {
+
+        padding: 60px 30px;
+    }
+
+    .brand-showcase {
+
+        padding: 50px 30px;
+    }
+
+    .executive-quote blockquote {
+
+        font-size: 1.4rem;
+    }
+}
+    .corporate-cta .hero-buttons {
+
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+/* =========================================================
+   ANIMATION SYSTEM V1
+   DIVYA FOOD PROCESSING
+   ========================================================= */
+
+/* =========================================================
+   FADE UP
+   ========================================================= */
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(40px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+/* =========================================================
+   FADE IN
+   ========================================================= */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+    }
+
+    to {
+
+        opacity: 1;
+    }
+}
+
+/* =========================================================
+   SCALE IN
+   ========================================================= */
+
+@keyframes scaleIn {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            scale(.95);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            scale(1);
+    }
+}
+
+/* =========================================================
+   FLOAT
+   ========================================================= */
+
+@keyframes float {
+
+    0% {
+
+        transform:
+            translateY(0);
+    }
+
+    50% {
+
+        transform:
+            translateY(-15px);
+    }
+
+    100% {
+
+        transform:
+            translateY(0);
+    }
+}
+
+/* =========================================================
+   GRADIENT SHIFT
+   ========================================================= */
+
+@keyframes gradientShift {
+
+    0% {
+
+        background-position: 0% 50%;
+    }
+
+    50% {
+
+        background-position: 100% 50%;
+    }
+
+    100% {
+
+        background-position: 0% 50%;
+    }
+}
+
+/* =========================================================
+   SCROLL REVEAL
+   ========================================================= */
+
+.reveal {
+
+    opacity: 0;
+
+    transform:
+        translateY(40px);
+
+    transition:
+        opacity .9s ease,
+        transform .9s ease;
+}
+
+.reveal.active {
+
+    opacity: 1;
+
+    transform:
+        translateY(0);
+}
+
+.reveal-left {
+
+    opacity: 0;
+
+    transform:
+        translateX(-60px);
+
+    transition:
+        all .9s ease;
+}
+
+.reveal-left.active {
+
+    opacity: 1;
+
+    transform:
+        translateX(0);
+}
+
+.reveal-right {
+
+    opacity: 0;
+
+    transform:
+        translateX(60px);
+
+    transition:
+        all .9s ease;
+}
+
+.reveal-right.active {
+
+    opacity: 1;
+
+    transform:
+        translateX(0);
+}
+
+.reveal-scale {
+
+    opacity: 0;
+
+    transform:
+        scale(.95);
+
+    transition:
+        all .8s ease;
+}
+
+.reveal-scale.active {
+
+    opacity: 1;
+
+    transform:
+        scale(1);
+}
+/* =========================================================
+   FLOATING HERO LOGO
+   ========================================================= */
+
+.floating-logo {
+
+    animation:
+        float 7s ease-in-out infinite;
+}
+
+/* =========================================================
+   GOLD SHIMMER
+   ========================================================= */
+
+.gold-shimmer {
+
+    background:
+        linear-gradient(
+        120deg,
+        var(--premium-gold),
+        #f4d67c,
+        var(--premium-gold)
+        );
+
+    background-size:
+        200% auto;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    animation:
+        gradientShift 4s linear infinite;
+}
+
+/* =========================================================
+   GLOW HOVER
+   ========================================================= */
+
+.glow-hover {
+
+    transition:
+        var(--transition-normal);
+}
+
+.glow-hover:hover {
+
+    box-shadow:
+        0 20px 50px rgba(212,175,55,.25);
+}
+
+/* =========================================================
+   IMAGE ZOOM
+   ========================================================= */
+
+.zoom-image {
+
+    overflow: hidden;
+}
+
+.zoom-image img {
+
+    transition:
+        transform 1s ease;
+}
+
+.zoom-image:hover img {
+
+    transform:
+        scale(1.08);
+}
+
+
+/* =========================================================
+   DIVYA FOOD — STANDALONE PAGE DESIGN SYSTEM
+   Each HTML file owns its CSS. No external site stylesheet.
+   ========================================================= */
+:root{
+  --df-green:#0b4a38;--df-green-deep:#062f27;--df-gold:#caa12d;--df-gold-soft:#f5ecd4;
+  --df-navy:#0b1f3a;--df-ink:#243342;--df-muted:#66737d;--df-line:#e3e9e7;
+  --df-soft:#f5f8f7;--df-white:#fff;--df-max:1220px;
+  --df-shadow:0 24px 70px rgba(8,38,31,.10);--df-shadow-sm:0 10px 32px rgba(8,38,31,.065);
+}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{background:#fff}
+body::selection{background:rgba(202,161,45,.25)}
+.container{max-width:var(--df-max);padding-left:28px;padding-right:28px}
+
+/* ---------- premium header ---------- */
+.site-header,.inner-site-header,.home-header{
+  position:sticky!important;top:0;z-index:5000!important;
+  background:rgba(255,255,255,.90)!important;
+  border-bottom:1px solid rgba(11,31,58,.075)!important;
+  box-shadow:0 7px 30px rgba(11,31,58,.055)!important;
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  transition:background .3s ease,box-shadow .3s ease,transform .3s ease;
+}
+.site-header.scrolled{background:rgba(255,255,255,.97)!important;box-shadow:0 12px 36px rgba(11,31,58,.09)!important}
+.navbar{min-height:82px!important;height:82px!important;display:flex!important;align-items:center!important;gap:26px!important}
+.logo{display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;position:relative;z-index:5010}
+.logo img{width:64px!important;height:auto!important;max-height:58px;object-fit:contain}
+.site-header nav{margin-left:auto!important;position:relative;z-index:5010}
+.nav-menu{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:2px!important}
+.nav-menu a{position:relative!important;padding:11px 12px!important;border-radius:10px!important;color:var(--df-navy)!important;font-size:12px!important;font-weight:750!important;letter-spacing:-.02em!important;line-height:1.1!important;transition:color .2s ease,background .2s ease,transform .2s ease!important}
+.nav-menu a::after{content:""!important;position:absolute!important;left:12px!important;right:12px!important;bottom:5px!important;height:2px!important;border-radius:9px!important;background:var(--df-gold)!important;transform:scaleX(0)!important;transition:transform .22s ease!important}
+.nav-menu a:hover,.nav-menu a.active{color:var(--df-green)!important;background:rgba(11,74,56,.055)!important}
+.nav-menu a:hover::after,.nav-menu a.active::after{transform:scaleX(1)!important}
+.mobile-toggle{
+  display:none!important;position:relative!important;z-index:5020!important;flex:0 0 46px!important;width:46px!important;height:46px!important;
+  margin-left:auto!important;padding:0!important;border:1px solid rgba(11,74,56,.13)!important;border-radius:14px!important;
+  background:rgba(11,74,56,.055)!important;cursor:pointer!important;align-items:center!important;justify-content:center!important;flex-direction:column!important;gap:5px!important;
+  -webkit-tap-highlight-color:transparent!important;touch-action:manipulation!important;
+}
+.mobile-toggle span{display:block!important;width:21px!important;height:2px!important;margin:0!important;border-radius:99px!important;background:var(--df-navy)!important;transition:transform .25s ease,opacity .2s ease!important}
+.mobile-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.mobile-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.mobile-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav-backdrop{display:none}
+
+/* ---------- inner hero ---------- */
+.inner-page .page-hero{
+  padding:112px 0 96px!important;min-height:390px;display:flex;align-items:center;overflow:hidden;
+  background:
+    radial-gradient(circle at 8% 12%,rgba(202,161,45,.14),transparent 27%),
+    radial-gradient(circle at 91% 88%,rgba(11,74,56,.10),transparent 30%),
+    linear-gradient(135deg,#fff 0%,#f8faf9 62%,#f2f7f4 100%)!important;
+  border-bottom:1px solid #e8eeec;
+}
+.inner-page .page-hero::before{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(202,161,45,.13);border-radius:50%;right:-210px;top:-210px}
+.inner-page .page-hero .container{position:relative;z-index:1;max-width:1050px;text-align:center}
+.inner-page .inner-eyebrow,.inner-page .badge{display:inline-flex!important;align-items:center;gap:8px;margin-bottom:17px;padding:7px 12px!important;border:1px solid rgba(202,161,45,.16);border-radius:99px!important;background:var(--df-gold-soft)!important;color:#927016!important;font-size:10px!important;font-weight:850!important;letter-spacing:.11em!important;text-transform:uppercase}
+.inner-page .page-hero h1,.inner-page .inner-page-title{max-width:950px!important;margin:0 auto 20px!important;font-size:clamp(2.55rem,5.5vw,5rem)!important;line-height:1.03!important;letter-spacing:-.055em!important;color:var(--df-navy)!important}
+.inner-page .page-hero p:not(.badge){max-width:790px!important;margin:0 auto!important;font-size:16px!important;line-height:1.8!important;color:#68747c!important}
+
+/* ---------- content sections ---------- */
+.inner-content-section{padding:92px 0!important;overflow:hidden}
+.inner-content-section:nth-of-type(even){background:#f7f9f8!important}
+.inner-content-section .container{max-width:1120px!important}
+.inner-section-title{font-size:clamp(2rem,3.2vw,3rem)!important;line-height:1.08!important;letter-spacing:-.045em!important;margin-bottom:17px!important;color:var(--df-navy)!important}
+.inner-content-section p,.inner-content-section li{font-size:15px!important;line-height:1.85!important;color:#68747d!important}
+.inner-content-section ul,.inner-content-section ol{padding-left:1.2rem!important}
+.inner-content-section li{margin-bottom:9px!important}
+.inner-content-section .container:not(:has(>img)){max-width:930px!important}
+.inner-content-section .container:not(:has(>img))::before{content:"";display:block;width:48px;height:3px;border-radius:99px;background:var(--df-gold);margin-bottom:22px}
+.inner-content-section .container:has(>img){display:grid!important;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:58px;align-items:center}
+.inner-content-section .container:has(>img)>img{width:100%!important;max-height:450px;object-fit:cover;border-radius:24px!important;margin:0!important;box-shadow:var(--df-shadow)!important;border:7px solid #fff}
+.inner-content-section .media-copy{min-width:0}
+.inner-content-section article,.inner-content-section .card{
+  border:1px solid rgba(11,31,58,.075)!important;border-radius:20px!important;background:#fff!important;padding:28px!important;box-shadow:var(--df-shadow-sm)!important;transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease!important
+}
+.inner-content-section article:hover,.inner-content-section .card:hover{transform:translateY(-5px);box-shadow:var(--df-shadow)!important;border-color:rgba(202,161,45,.23)!important}
+.inner-content-section article h3{margin-top:0!important;color:var(--df-green)!important;font-size:18px!important}
+
+/* ---------- about / image overlays / common cards ---------- */
+.image-feature,.split-section{border-radius:26px}
+.feature-card,.vertical-card,.pillar,.market-card,.kpi-card{border:1px solid rgba(11,31,58,.065)!important;box-shadow:var(--df-shadow-sm)!important}
+.feature-card:hover,.vertical-card:hover,.pillar:hover,.market-card:hover,.kpi-card:hover{box-shadow:var(--df-shadow)!important}
+.section-title{max-width:800px!important}
+.section-title h2{letter-spacing:-.045em}
+
+/* ---------- legal pages ---------- */
+body.legal-page .inner-main>h1{display:none}
+body.legal-page .page-hero{min-height:330px;padding-top:105px!important;padding-bottom:80px!important}
+body.legal-page .page-hero .container{text-align:left;max-width:950px}
+body.legal-page .page-hero h1{font-size:clamp(2.7rem,5vw,4.5rem)!important}
+body.legal-page .inner-content-section .container:not(:has(>img)){max-width:900px!important}
+body.legal-page .inner-content-section{padding:62px 0!important}
+body.legal-page .inner-content-section .container:not(:has(>img))::before{margin-bottom:18px}
+body.legal-page .inner-content-section h2{font-size:clamp(1.65rem,3vw,2.3rem)!important}
+
+/* ---------- footer ---------- */
+.site-footer{background:linear-gradient(135deg,#063c2d 0%,#072d3b 100%)!important;margin-top:0!important}
+.site-footer .container{max-width:1220px}
+.footer-grid{padding:66px 0 40px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:42px}
+.footer-logo{width:76px!important;filter:brightness(1.04)}
+.site-footer h4{color:#fff!important;font-size:12px!important;letter-spacing:.02em}
+.site-footer p,.footer-links a{color:rgba(255,255,255,.65)!important;font-size:11px!important;line-height:1.75}
+.footer-links{display:grid;gap:8px}
+.footer-links a:hover{color:#fff!important;transform:translateX(2px)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.10);padding:18px 0!important;text-align:center;color:rgba(255,255,255,.5)!important;font-size:10px!important}
+
+/* ---------- scroll reveal ---------- */
+.reveal,.reveal-left,.reveal-right,.reveal-scale{will-change:transform,opacity}
+body.page-ready .reveal{transition-delay:var(--delay,0ms)}
+
+/* ---------- accessibility / motion ---------- */
+:focus-visible{outline:3px solid rgba(202,161,45,.45);outline-offset:3px;border-radius:6px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+@media(max-width:900px){
+  .container{padding-left:20px!important;padding-right:20px!important}
+  .navbar{height:74px!important;min-height:74px!important}
+  .logo img{width:57px!important}
+  .mobile-toggle{display:flex!important}
+  .site-header nav{position:absolute!important;top:calc(100% + 9px)!important;left:16px!important;right:16px!important;margin:0!important;padding:9px!important;border:1px solid #dfe8e4!important;border-radius:18px!important;background:rgba(255,255,255,.985)!important;box-shadow:0 24px 60px rgba(8,38,31,.15)!important;opacity:0!important;visibility:hidden!important;transform:translateY(-10px) scale(.985)!important;transform-origin:top center!important;transition:opacity .22s ease,visibility .22s ease,transform .22s ease!important}
+  .site-header nav.mobile-open{opacity:1!important;visibility:visible!important;transform:translateY(0) scale(1)!important}
+  .nav-menu{display:grid!important;grid-template-columns:1fr!important;gap:3px!important}
+  .nav-menu a{padding:13px 14px!important;font-size:13px!important;border-radius:11px!important}
+  .nav-menu a::after{display:none!important}
+  .nav-menu a.active{background:rgba(11,74,56,.07)!important}
+  body.nav-locked{overflow:hidden}
+  .nav-backdrop{position:fixed;inset:74px 0 0;z-index:4900;background:rgba(7,35,29,.10);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+  .nav-backdrop.show{display:block}
+  .inner-page .page-hero{min-height:350px;padding:88px 0 72px!important}
+  .inner-page .page-hero h1,.inner-page .inner-page-title{font-size:clamp(2.35rem,10vw,4rem)!important}
+  .inner-content-section{padding:70px 0!important}
+  .inner-content-section .container:has(>img){grid-template-columns:1fr;gap:30px}
+  .inner-content-section .container:has(>img)>img{max-height:380px}
+  .footer-grid{grid-template-columns:1.4fr 1fr 1fr!important;gap:28px!important}
+}
+@media(max-width:620px){
+  .navbar{height:70px!important;min-height:70px!important}
+  .nav-backdrop{inset:70px 0 0}
+  .inner-page .page-hero{padding:75px 0 62px!important}
+  .inner-content-section{padding:58px 0!important}
+  .inner-content-section .container:has(>img)>img{max-height:300px;border-width:5px!important;border-radius:18px!important}
+  .footer-grid{grid-template-columns:1fr 1fr!important}
+  .footer-grid>div:first-child{grid-column:1/-1}
+}
+@media(max-width:420px){
+  .footer-grid{grid-template-columns:1fr!important}
+  .footer-grid>div{grid-column:auto!important}
+  .inner-page .page-hero h1{font-size:2.25rem!important}
+}
+</style></head>
+<body class="">
+<!-- HEADER -->
+<header class="site-header home-header">
+<div class="container">
+<div class="navbar">
+<a aria-label="Divya Food Processing home" class="logo" href="index.html"><img alt="Divya Food Processing Private Limited" src="assets/logos/DFP-logocl-removebg-preview.png"/></a>
+<button aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation" class="mobile-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="Primary Navigation" id="primary-navigation">
+<ul class="nav-menu">
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="business-verticals.html">Business Verticals</a></li><li><a href="manufacturing-quality.html">Manufacturing</a></li><li><a href="growth-vision.html">Growth Vision</a></li><li><a href="investor-relations.html">Investors</a></li><li><a href="contact.html">Contact</a></li>
+</ul></nav>
+</div></div></header>
+<main>
+<!-- HERO -->
+<section class="hero home-hero">
+<div aria-hidden="true" class="home-hero-backdrop"></div>
+<div class="container">
+<div class="hero-grid home-hero-grid">
+<div class="hero-content reveal-left">
+<span class="badge home-eyebrow">
+                            Food Processing • FMCG • Consumer Brands
+                        </span>
+<h1>
+                            Building Trusted Food Brands for
+                            <span class="home-highlight">India's Next Growth Chapter</span>
+</h1>
+<p>
+                            Divya Food Processing Private Limited is an emerging food processing
+                            and FMCG company focused on tea processing, blending, packaging,
+                            private label opportunities and the development of future value-added
+                            food categories.
+                        </p>
+<div class="hero-buttons">
+<a class="btn btn-gold" href="business-verticals.html">
+                                Explore Business Verticals
+                            </a>
+<a class="btn btn-outline" href="contact.html">
+                                Partner With Us
+                            </a>
+</div>
+<div class="home-trust-line">
+<span>Strategic Growth</span>
+<i></i>
+<span>Quality Focus</span>
+<i></i>
+<span>Long-Term Value</span>
+</div>
+</div>
+<div class="hero-visual home-hero-visual reveal-right">
+<div class="home-hero-image-wrap">
+<img alt="Divya Food Processing corporate facility concept" fetchpriority="high" loading="eager" src="assets/images/hero-fmcg-evening.png"/>
+</div>
+<div class="home-hero-float-card">
+<span class="home-card-kicker">OUR FOCUS</span>
+<strong>From Processing<br/>to Consumer Brands</strong>
+</div>
+</div>
+</div>
+</div>
+<a aria-label="Scroll to company overview" class="home-scroll" href="#overview">
+<span>Scroll to explore</span>
+<b>↓</b>
+</a>
+</section>
+<!-- STRATEGIC FOCUS -->
+<section class="section-light home-focus-section">
+<div class="container">
+<div class="home-focus-grid reveal">
+<div>
+<span class="badge">Strategic Focus</span>
+<h2>One platform. Multiple opportunities across the food value chain.</h2>
+</div>
+<div>
+<p>
+                            Our current strategy is centered on building a strong foundation for
+                            food processing, consumer product development, manufacturing partnerships,
+                            packaging and distribution-led growth.
+                        </p>
+<a class="text-link" href="business-verticals.html">
+                            View our business ecosystem <span>→</span>
+</a>
+</div>
+</div>
+<div class="grid-4 home-focus-cards">
+<div class="feature-card reveal">
+<div class="feature-icon home-feature-icon">01</div>
+<h3>Tea Processing</h3>
+<p>Processing and quality-focused development around the tea category.</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon home-feature-icon">02</div>
+<h3>Blending</h3>
+<p>Product profiles designed around future consumer and market requirements.</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon home-feature-icon">03</div>
+<h3>Packaging</h3>
+<p>Packaging solutions that connect product quality with brand presentation.</p>
+</div>
+<div class="feature-card reveal">
+<div class="feature-icon home-feature-icon">04</div>
+<h3>Private Label</h3>
+<p>Exploring scalable product solutions for retailers and commercial partners.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- COMPANY OVERVIEW -->
+<section class="section-soft" id="overview">
+<div class="container">
+<div class="split-section home-overview">
+<div class="reveal-left">
+<div class="image-card home-overview-image">
+<img alt="Food processing and packaging operations concept" loading="lazy" src="assets/images/company-overview.png"/>
+</div>
+</div>
+<div class="reveal-right">
+<span class="badge">About Divya Food Processing</span>
+<h2>Building the foundation before scaling the opportunity.</h2>
+<div class="divider" style="margin-left:0;"></div>
+<p>
+                            Divya Food Processing Private Limited was established with the objective
+                            of participating in India's evolving food processing and consumer goods sector.
+                        </p>
+<p>
+                            The company is currently focused on strategic planning, business development,
+                            brand creation, partnership exploration and evaluating opportunities across
+                            manufacturing, distribution and consumer products.
+                        </p>
+<div class="home-check-list">
+<div><span>✓</span> Consumer-focused product development</div>
+<div><span>✓</span> Scalable manufacturing partnerships</div>
+<div><span>✓</span> Quality-led processing and packaging</div>
+<div><span>✓</span> Long-term category expansion</div>
+</div>
+<a class="btn btn-primary" href="about.html">Discover Our Story</a>
+</div>
+</div>
+</div>
+</section>
+<!-- BUSINESS VERTICALS -->
+<section class="section-light">
+<div class="container">
+<div class="section-title reveal">
+<span class="badge">Business Ecosystem</span>
+<h2>Focused today. Built for tomorrow.</h2>
+<div class="divider"></div>
+<p>
+                        Our business framework brings together processing, product development,
+                        packaging, private label and distribution opportunities under one long-term vision.
+                    </p>
+</div>
+<div class="grid-3 home-vertical-grid">
+<article class="vertical-card reveal">
+<img alt="Tea processing" loading="lazy" src="assets/images/tea-processing1.png"/>
+<div class="vertical-card-content">
+<span class="home-card-number">01</span>
+<h3>Tea Processing</h3>
+<p>Exploring sourcing, processing, quality management and product development frameworks for tea-based offerings.</p>
+<a class="text-link" href="business-verticals.html">Explore vertical <span>→</span></a>
+</div>
+</article>
+<article class="vertical-card reveal">
+<img alt="Food packaging solutions" loading="lazy" src="assets/images/packaging-solutions1.png"/>
+<div class="vertical-card-content">
+<span class="home-card-number">02</span>
+<h3>Packaging &amp; Private Label</h3>
+<p>Developing packaging and customized product opportunities for future consumer and institutional requirements.</p>
+<a class="text-link" href="business-verticals.html">Explore vertical <span>→</span></a>
+</div>
+</article>
+<article class="vertical-card reveal">
+<img alt="FMCG distribution network concept" loading="lazy" src="assets/images/distribution-fmcg.png"/>
+<div class="vertical-card-content">
+<span class="home-card-number">03</span>
+<h3>Distribution &amp; FMCG</h3>
+<p>Evaluating distribution-led opportunities designed to support future brand reach and category expansion.</p>
+<a class="text-link" href="business-verticals.html">Explore vertical <span>→</span></a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SANT GOLD -->
+<section class="section-soft home-brand-section">
+<div class="container">
+<div class="brand-showcase reveal-scale">
+<div class="brand-showcase-grid">
+<div>
+<span class="brand-tag">Consumer Brand Direction</span>
+<h2>Introducing the Sant Gold Tea vision.</h2>
+<p>
+                                Sant Gold Tea represents the company's focus on creating thoughtfully
+                                positioned tea products with a strong emphasis on quality, presentation
+                                and consumer trust.
+                            </p>
+<p>
+                                The brand direction is part of a broader objective to build recognizable
+                                consumer offerings within the food and FMCG space.
+                            </p>
+<a class="btn btn-gold" href="business-verticals.html">Explore Our Brand Vision</a>
+</div>
+<div class="home-brand-image">
+<img alt="Sant Gold Tea product range concept" loading="lazy" src="assets/images/sant-gold-tea.png"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- GROWTH VISION -->
+<section class="section-light">
+<div class="container">
+<div class="section-title reveal">
+<span class="badge">Growth Vision</span>
+<h2>A disciplined path from foundation to scale.</h2>
+<div class="divider"></div>
+<p>
+                        Our long-term approach is designed around capability building, partnerships,
+                        market development and responsible expansion into value-added food categories.
+                    </p>
+</div>
+<div class="roadmap home-roadmap">
+<div class="roadmap-step reveal">
+<div class="roadmap-phase">01</div>
+<h3>Foundation</h3>
+<p>Build the strategic, operational and brand foundations.</p>
+</div>
+<div class="roadmap-step reveal">
+<div class="roadmap-phase">02</div>
+<h3>Capability</h3>
+<p>Develop processing, packaging and manufacturing relationships.</p>
+</div>
+<div class="roadmap-step reveal">
+<div class="roadmap-phase">03</div>
+<h3>Products</h3>
+<p>Develop focused consumer and private label product opportunities.</p>
+</div>
+<div class="roadmap-step reveal">
+<div class="roadmap-phase">04</div>
+<h3>Market</h3>
+<p>Explore distribution and brand-building opportunities across India.</p>
+</div>
+<div class="roadmap-step reveal">
+<div class="roadmap-phase">05</div>
+<h3>Expansion</h3>
+<p>Evaluate adjacent value-added food categories over time.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="section-soft">
+<div class="container">
+<div class="corporate-cta home-final-cta reveal">
+<span class="brand-tag">Build With Us</span>
+<h2>Looking for a food processing or FMCG partnership?</h2>
+<p>
+                        Connect with Divya Food Processing to discuss business opportunities,
+                        manufacturing relationships, private label requirements and strategic partnerships.
+                    </p>
+<div class="hero-buttons">
+<a class="btn btn-gold" href="contact.html">Start a Conversation</a>
+<a class="btn btn-outline" href="investor-relations.html">Investor Relations</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- FOOTER -->
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><img alt="Divya Food Processing" class="footer-logo" src="assets/logos/DFP-logocl-removebg-preview.png"/><p>Divya Food Processing Private Limited is an emerging food processing and FMCG venture focused on strategic growth, brand development and long-term value creation.</p></div>
+<div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="business-verticals.html">Business</a><a href="manufacturing-quality.html">Manufacturing</a><a href="growth-vision.html">Growth Vision</a></div></div>
+<div><h4>Connect</h4><div class="footer-links"><a href="contact.html">Contact Us</a><a href="mailto:info@divyafood.in">info@divyafood.in</a><a href="mailto:partners@divyafood.in">partners@divyafood.in</a></div></div>
+<div><h4>Legal</h4><div class="footer-links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-use.html">Terms of Use</a><a href="investor-relations.html">Investor Relations</a></div></div>
+</div><div class="footer-bottom"><p>© 2026 Divya Food Processing Private Limited. All Rights Reserved.</p></div></div></footer>
+
+
+<script id="divya-inline-app">
+(function(){
+  'use strict';
+  const ready=()=>{
+    document.body.classList.add('page-ready');
+    const header=document.querySelector('.site-header');
+    const toggle=document.querySelector('.mobile-toggle');
+    const nav=document.getElementById('primary-navigation');
+    if(!header || !toggle || !nav) return;
+
+    // Guarantee a real clickable mobile control even if an old page stylesheet is absent.
+    toggle.type='button';
+    toggle.setAttribute('aria-controls','primary-navigation');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-label','Open navigation');
+
+    let backdrop=document.querySelector('.nav-backdrop');
+    if(!backdrop){
+      backdrop=document.createElement('div');
+      backdrop.className='nav-backdrop';
+      backdrop.setAttribute('aria-hidden','true');
+      document.body.appendChild(backdrop);
+    }
+
+    const closeNav=()=>{
+      nav.classList.remove('mobile-open');
+      toggle.setAttribute('aria-expanded','false');
+      toggle.setAttribute('aria-label','Open navigation');
+      backdrop.classList.remove('show');
+      document.body.classList.remove('nav-locked');
+    };
+    const openNav=()=>{
+      nav.classList.add('mobile-open');
+      toggle.setAttribute('aria-expanded','true');
+      toggle.setAttribute('aria-label','Close navigation');
+      backdrop.classList.add('show');
+      document.body.classList.add('nav-locked');
+    };
+    toggle.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();nav.classList.contains('mobile-open')?closeNav():openNav();});
+    backdrop.addEventListener('click',closeNav);
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeNav));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNav();});
+    window.addEventListener('resize',()=>{if(window.innerWidth>900)closeNav();},{passive:true});
+
+    const updateHeader=()=>header.classList.toggle('scrolled',window.scrollY>24);
+    updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
+
+    const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+    nav.querySelectorAll('a').forEach(a=>{
+      const href=(a.getAttribute('href')||'').split('#')[0].toLowerCase();
+      if(href===current || (current===''&&href==='index.html')){
+        a.classList.add('active');a.setAttribute('aria-current','page');
+      }
+    });
+
+    const revealItems=document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale');
+    if('IntersectionObserver' in window){
+      const io=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){entry.target.classList.add('active');io.unobserve(entry.target);}
+      }),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+      revealItems.forEach((el,i)=>{el.style.setProperty('--delay',(Math.min(i%5,4)*70)+'ms');io.observe(el);});
+    }else revealItems.forEach(el=>el.classList.add('active'));
+
+    // Subtle section index markers for long inner pages.
+    document.querySelectorAll('.inner-content-section').forEach((section,i)=>section.dataset.section=(i+1).toString().padStart(2,'0'));
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
+})();
+</script></body>
+</html>
